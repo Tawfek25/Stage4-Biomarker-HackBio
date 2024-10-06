@@ -10,6 +10,7 @@ LGGdata <- GDCquery(
   data.type = "Gene Expression Quantification",
   experimental.strategy = "RNA-Seq"
 )
+
 output <- getResults(LGGdata)
 GDCdownload(LGGdata)
 
